@@ -1,0 +1,85 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.top-section {
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+    margin: 25px 10px;
+}
+.color-input {
+    display: block;
+    width: 61px;
+    height: 42px;
+    background: #E5E5E5;
+    border: 0.5px solid #D1D5DB;
+}
+
+select {
+    font-family: inherit;
+    font-size: 1.5rem;
+    width: 37vw;
+    height: 42px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    padding: 9px;
+    text-transform: capitalize;
+}
+
+.get-color-btn {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #183768;
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    background: #FFFFFF;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 0 10px;
+}
+
+.color-section {
+    width: 96%;
+    margin: 0 auto 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.color {
+    height: 75vh;
+    position: relative;   
+}
+
+.color h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 2px;
+    position: absolute;
+    bottom: -50px;
+    
+}
+
+
+@media (max-width: 576px) {
+   html {
+       font-size:12px;
+   }
+}
+
+@media (max-width: 320px) {
+   html {
+       font-size:10px;
+   }
+}
+
